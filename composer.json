@@ -1,0 +1,19 @@
+{
+    "name": "gioco-plus/jili-contract",
+    "description": "jili interface",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "q",
+            "email": "q.wong@goldenf.co"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "GiocoPlus\\JILI\\": "src/"
+        }
+    }
+}
