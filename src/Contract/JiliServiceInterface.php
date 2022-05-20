@@ -12,10 +12,10 @@ interface JiliServiceInterface
      * @param string $account
      * @param string $game_code
      * @param string $language
-     * @param string $odd_type
+     * @param string $back_url
      * @return mixed
      */
-    function gameLaunch(string $op_code, string $account, string $game_code, string $language, string $odd_type);
+    function gameLaunch(string $op_code, string $account, string $game_code, string $language, string $back_url = null);
 
     /**
      * 遊戲詳情
