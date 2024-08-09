@@ -28,20 +28,20 @@ interface JiliServiceInterface
 
     /**
      * 營商帳號轉換為遊戲商帳號
-     * @param string $op_code
+     * @param string $opCode
      * @param array $vendor
-     * @param string $player_name
+     * @param string $memberCode
      * @return mixed
      */
-    function accountToVendor(string $op_code, array $vendor, string $player_name);
+    function accountToVendor(string $opCode, array $vendor, string $memberCode);
 
     /**
      * 遊戲商帳號轉換為營商帳號
-     * @param string $op_code
+     * @param string $opCode
      * @param array $vendor
-     * @param string $vendor_account
+     * @param string $vendorAccount
      * @return mixed
      */
-    function accountToOperator(string $op_code, array $vendor, string $vendor_account);
+    function accountToOperator(string $opCode, array $vendor, string $vendorAccount);
 
 }
